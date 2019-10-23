@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-10-23T08:59:53.938Z</updated>
+    <updated>2019-10-23T09:08:27.574Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -11,44 +11,38 @@
     <icon>https://LuckinSven.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 不修仙的七</rights>
     <entry>
+        <title type="html"><![CDATA[十年一梦]]></title>
+        <id>https://LuckinSven.github.io/post/shi-nian-yi-meng</id>
+        <link href="https://LuckinSven.github.io/post/shi-nian-yi-meng">
+        </link>
+        <updated>2019-10-23T09:03:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>他抬头看见了月亮，而脚边的六便士却在无声夜里反射着幽冷的月光。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>他抬头看见了月亮，而脚边的六便士却在无声夜里反射着幽冷的月光。</p>
+<!-- more -->
+<p>生前越固执，身后有故事。</p>
+<p>Part 1_生前</p>
+<p>千山都翻得过 万水却难解渴</p>
+<p>云霞漫天，我看着远处那架747，低吼咆哮，滑出跑道，银色的钢铁巨鸟在晴空迅速爬升，冲入云霄，最后在天际化成一个无法到达的黑点<br>
+这段话怎么写，都觉得迷人可爱。<br>
+隔着远远的距离，看你步入弦梯，看你头也不回，摆渡车撤离，塔台给出起飞，银翼开始移动。<br>
+此刻头顶上空，云潮翻涌，无数条看不清命运线交织在一起，差之毫厘，从此以后，一语成谶，亦或一去不回。<br>
+无限个可能，在塌落缩成奇点的那一刻，你，会想什么？<br>
+我不能后悔。<br>
+天气渐凉，才觉一年将尽。<br>
+一冬将尽，方知故事将尽。</p>
+<p>Part2_身后</p>
+<p>世界没有尽头，仙境全是冷酷。</p>
+<p>很多故事和意义，都是你以为，你以为岁月是个好东西，你以为，你就是好东西。可惜你无论如何思索，得来都是你以为。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[出现又离开]]></title>
         <id>https://LuckinSven.github.io/post/chu-xian-you-chi-kai</id>
         <link href="https://LuckinSven.github.io/post/chu-xian-you-chi-kai">
         </link>
         <updated>2019-10-23T08:44:29.000Z</updated>
         <content type="html"><![CDATA[<p>每一个未来，都有人在。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://LuckinSven.github.io/post/hello-gridea</id>
-        <link href="https://LuckinSven.github.io/post/hello-gridea">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
