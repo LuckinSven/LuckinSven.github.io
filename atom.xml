@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-10-26T08:03:16.689Z</updated>
+    <updated>2019-10-26T08:21:08.395Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -28,35 +28,37 @@ lambda argument_list: expression</p>
 add = lambda x, y: x+yprint(add(1, 2))<br>
 这两行程序，第一行是实现了一个加法函数，后者将其打印出来，其逻辑非常简单，适合简单的函数实现。</p>
 <p>但是我认为，lambda最终的威力是配合filter与map函数，前者为过滤函数，后者映射函数，在某种程度上，lambda可以相当于更加轻量化，类似的“正则表示式”。</p>
-<p>下面举蓝桥杯的2018年例题1说明：</p>
+<p>下面举蓝桥杯的2018年题1说明：</p>
 <p>标题：分数<br>
 1/1 + 1/2 + 1/4 + 1/8 + 1/16 + ....<br>
 每项是前一项的一半，如果一共有20项,<br>
-求这个和是多少，结果用分数表示出来。<br>
-类似：3/2<br>
+求这个和是多少，结果用分数表示出来。类似：3/2<br>
 当然，这只是加了前2项而已。分子分母要求互质。<br>
 注意：<br>
 需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
 请不要填写任何多余的文字或符号。</p>
 <p>解答：<br>
 其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简洁。<br>
-本文在此不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
-😃</p>
-<!-- more -->
-<p>#Lambda表示式实现</p>
+本文在此不做讨论，主要说明lambda表达式在分母构造上的简洁之处。</p>
+<p>#Lambda表示式实现😆</p>
 <ul>
-<li>denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
-#常规实现</li>
-<li>den_list = []</li>
-<li>    for i in range(1, 20):</li>
-<li>    den_list.append(pow(2, i))</li>
+<li>denominator = list(map(lambda x: pow(2, x), range(1, 20)))</li>
 </ul>
-<p>可以看到，使用lambda表达式配合map函数仅需一行就可以实验。</p>
-<p>后续处理如下：<br>
-sum = Fraction(1, 1)<br>
-for it in denominator:<br>
-    sum += Fraction(1, it)<br>
-    print(sum)</p>
+<!-- more -->
+<p>#常规实现😣</p>
+<ul>
+<li>denominator_list = []</li>
+<li>for i in range(1, 20):</li>
+<li>    denominator_list.append(pow(2, i))</li>
+</ul>
+<p>可以看到，使用lambda表达式配合map函数仅需一行就可以实验。<br>
+后续处理如下：</p>
+<ul>
+<li>sum = Fraction(1, 1)</li>
+<li>for it in denominator:</li>
+<li>    sum += Fraction(1, it)</li>
+<li>print(sum)</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
