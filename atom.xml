@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-10-23T09:08:27.574Z</updated>
+    <updated>2019-10-26T07:23:28.494Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -10,6 +10,129 @@
     <logo>https://LuckinSven.github.io/images/avatar.png</logo>
     <icon>https://LuckinSven.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 不修仙的七</rights>
+    <entry>
+        <title type="html"><![CDATA[Lambda 表达式]]></title>
+        <id>https://LuckinSven.github.io/post/lambda-biao-da-shi</id>
+        <link href="https://LuckinSven.github.io/post/lambda-biao-da-shi">
+        </link>
+        <updated>2019-10-26T07:05:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>在Python中，lambda的语法是唯一的。其形式如下：<br>
+lambda argument_list: expression<br>
+这是一个匿名函数，在使用的时候通常不额外命名，更多的作为嵌套使用。<br>
+下面为一个例子：<br>
+#Ex1<br>
+add = lambda x, y: x+yprint(add(1, 2))<br>
+这两行程序，第一行是实现了一个加法函数，后者将其打印出来，其逻辑非常简单，适合简单的函数实现。</p>
+<p>但是我认为，lambda最终的威力是配合filter与map函数，前者为过滤函数，后者映射函数，在某种程度上，lambda可以相当于更加轻量化，类似的“正则表示式”。</p>
+<p>下面举蓝桥杯的2018年例题1说明：</p>
+<p>标题：分数<br>
+1/1 + 1/2 + 1/4 + 1/8 + 1/16 + ....<br>
+每项是前一项的一半，如果一共有20项,<br>
+求这个和是多少，结果用分数表示出来。<br>
+类似：3/2<br>
+当然，这只是加了前2项而已。分子分母要求互质。<br>
+注意：<br>
+需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
+请不要填写任何多余的文字或符号。</p>
+<p>解答：<br>
+其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简单，但是本文不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
+😃</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在Python中，lambda的语法是唯一的。其形式如下：<br>
+lambda argument_list: expression<br>
+这是一个匿名函数，在使用的时候通常不额外命名，更多的作为嵌套使用。<br>
+下面为一个例子：<br>
+#Ex1<br>
+add = lambda x, y: x+yprint(add(1, 2))<br>
+这两行程序，第一行是实现了一个加法函数，后者将其打印出来，其逻辑非常简单，适合简单的函数实现。</p>
+<p>但是我认为，lambda最终的威力是配合filter与map函数，前者为过滤函数，后者映射函数，在某种程度上，lambda可以相当于更加轻量化，类似的“正则表示式”。</p>
+<p>下面举蓝桥杯的2018年例题1说明：</p>
+<p>标题：分数<br>
+1/1 + 1/2 + 1/4 + 1/8 + 1/16 + ....<br>
+每项是前一项的一半，如果一共有20项,<br>
+求这个和是多少，结果用分数表示出来。<br>
+类似：3/2<br>
+当然，这只是加了前2项而已。分子分母要求互质。<br>
+注意：<br>
+需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
+请不要填写任何多余的文字或符号。</p>
+<p>解答：<br>
+其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简单，但是本文不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
+😃</p>
+<!-- more -->
+<p>#Lambda表示式实现<br>
+denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
+#常规实现<br>
+den_list = []<br>
+for i in range(1, 20):<br>
+den_list.append(pow(2, i))</p>
+<p>可以看到，使用lambda表达式配合map函数仅需一行就可以实验。</p>
+<p>后续处理如下：<br>
+sum = Fraction(1, 1)<br>
+for it in denominator:<br>
+sum += Fraction(1, it)<br>
+print(sum)</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML_常用标签]]></title>
+        <id>https://LuckinSven.github.io/post/html_-chang-yong-biao-qian</id>
+        <link href="https://LuckinSven.github.io/post/html_-chang-yong-biao-qian">
+        </link>
+        <updated>2019-10-23T10:23:02.000Z</updated>
+        <content type="html"><![CDATA[<p>HTML最最最常用的标签</p>
+<p>1，<html>.......</html>  指示文档为html</p>
+<p>2，<head>......</head>   是所有头部元素的容器，里面可以引用脚本，指示浏览器等信息</p>
+<p>3，<meta>  charset = &quot;UTF-8&quot; ，在head里面，最常用来告诉浏览器，文本的格式。</p>
+<p>要注意的是在HTML中，meta没有结束标签！</p>
+<p>4，<title> ......</title>  文档的标题，是head里面必须唯一要求包含的东西。在浏览器上显示的地方为这个网页的名字，注意，是此网页的名称，而不是网页内容。</p>
+<p>5，<a href="www.baidu.com">  这是百度 </a>。注意， 有一个单独的 &gt;，在连接字符串后面，网页显示为 这是百度  四个字，然后连接为超链接。</p>
+<p>！！注意。超链接不一定是文本，也可以是图片，视频！！</p>
+<p>&lt;a href=&quot;https://www.mgtv.c?showId=3958665&quot;blank&quot;&gt;视频</a></p>
+<p>blank 表示在新窗口中打开</p>
+<p>6，图片。<img src=""  />  ，路径支持相对路径，与绝对路径（其他网页）。宽度与高度可以指定，但也是用CSS。</p>
+<img src ="" width="250" height="39"  />
+<p>7,段落 <P> '''''</p> ，换行 <br/>，  下划线（分割线） <hr/>，如果是单独生效的，/在字母后面。（也可以省略斜杠）</p>
+<p>8，注释 &lt;!...这是一个注释......&gt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML_初识]]></title>
+        <id>https://LuckinSven.github.io/post/html_-chu-shi</id>
+        <link href="https://LuckinSven.github.io/post/html_-chu-shi">
+        </link>
+        <updated>2019-10-23T10:22:22.000Z</updated>
+        <content type="html"><![CDATA[<p>HTML， Hypertext Markup Language，超文本标记语言。</p>
+<p>1，用于描述网页信息的内容和结构</p>
+<p>2，用开始和结构标签包围文本内容</p>
+<p>3，把每个标签的名字称为元素</p>
+<p>4，语法： &lt;元素&gt;  内容   &lt;/元素&gt; 例如： <p> This is a paragraph </p></p>
+<p>页面结构 <!DOCTYPR html> <html> <head> <title> 标题</tittle> sssss </head> <body> page content </body> </html></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS_初识]]></title>
+        <id>https://LuckinSven.github.io/post/css_-chu-shi</id>
+        <link href="https://LuckinSven.github.io/post/css_-chu-shi">
+        </link>
+        <updated>2019-10-23T10:20:59.000Z</updated>
+        <content type="html"><![CDATA[<p>Cascading Style Sheets 层叠样式表 用于网页中单独处理显示效果。</p>
+<p>让HTML专注于文本内容本身，而CSS则用于表现其文本内容在浏览器中显示效果。</p>
+<p>让内容与形式分离，降低耦合。</p>
+<p>CSS的引入 有三种方式</p>
+<p>1，行内式。不推荐</p>
+<p>2.内嵌，也不推荐，但是简单的网页是可以的，而且便于调试</p>
+<p>3，链接式，推荐，将CSS单独编辑成一个文件，用链接的方式引入。</p>
+<p>显示效果级别： 行内&gt;内嵌&gt;链接</p>
+<p>CSS的概念实在太多了，我感觉头都要大了，目前我更多的是使用Dw直接可视化生成，然后得出HTML代码，再拖回去。</p>
+<p>但是学了两天，我觉得最有用的应该是id标记。</p>
+<p>通过id标记，已经可以做出简单的网页效果了。</p>
+<p>在CSS中 &lt;</p>
+<p>style&gt; #ID {xxx} </style></p>
+<p>可以看到ID用是#号开头。</p>
+<p>而在HTML中，在标签中加入 id=&quot;&quot;；属性完成。 具体的实现，还是边查表边用吧！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[十年一梦]]></title>
         <id>https://LuckinSven.github.io/post/shi-nian-yi-meng</id>

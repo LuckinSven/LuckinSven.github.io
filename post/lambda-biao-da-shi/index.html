@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>关于 | 不修仙的七</title>
+<title>Lambda 表达式 | 不修仙的七</title>
 <meta name="description" content="风筝有风，海豚有海">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,20 +92,56 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">关于</h2>
-            <div class="post-date">2019-01-25</div>
+            <h2 class="post-title">Lambda 表达式</h2>
+            <div class="post-date">2019-10-26</div>
             
             <div class="post-content">
-              <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+              <p>在Python中，lambda的语法是唯一的。其形式如下：<br>
+lambda argument_list: expression<br>
+这是一个匿名函数，在使用的时候通常不额外命名，更多的作为嵌套使用。<br>
+下面为一个例子：<br>
+#Ex1<br>
+add = lambda x, y: x+yprint(add(1, 2))<br>
+这两行程序，第一行是实现了一个加法函数，后者将其打印出来，其逻辑非常简单，适合简单的函数实现。</p>
+<p>但是我认为，lambda最终的威力是配合filter与map函数，前者为过滤函数，后者映射函数，在某种程度上，lambda可以相当于更加轻量化，类似的“正则表示式”。</p>
+<p>下面举蓝桥杯的2018年例题1说明：</p>
+<p>标题：分数<br>
+1/1 + 1/2 + 1/4 + 1/8 + 1/16 + ....<br>
+每项是前一项的一半，如果一共有20项,<br>
+求这个和是多少，结果用分数表示出来。<br>
+类似：3/2<br>
+当然，这只是加了前2项而已。分子分母要求互质。<br>
+注意：<br>
+需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
+请不要填写任何多余的文字或符号。</p>
+<p>解答：<br>
+其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简单，但是本文不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
+😃</p>
+<!-- more -->
+<p>#Lambda表示式实现<br>
+denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
+#常规实现<br>
+den_list = []<br>
+for i in range(1, 20):<br>
+den_list.append(pow(2, i))</p>
+<p>可以看到，使用lambda表达式配合map函数仅需一行就可以实验。</p>
+<p>后续处理如下：<br>
+sum = Fraction(1, 1)<br>
+for it in denominator:<br>
+sum += Fraction(1, it)<br>
+print(sum)</p>
 
             </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://LuckinSven.github.io/post/html_-chang-yong-biao-qian">
+                  <h3 class="post-title">
+                    HTML_常用标签
+                  </h3>
+                </a>
+              </div>
             
 
             
