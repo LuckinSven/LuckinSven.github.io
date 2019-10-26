@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-10-26T07:23:28.494Z</updated>
+    <updated>2019-10-26T07:43:20.375Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -35,7 +35,8 @@ add = lambda x, y: x+yprint(add(1, 2))<br>
 需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
 请不要填写任何多余的文字或符号。</p>
 <p>解答：<br>
-其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简单，但是本文不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
+其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简洁。<br>
+本文在此不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
 😃</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>在Python中，lambda的语法是唯一的。其形式如下：<br>
@@ -57,21 +58,24 @@ add = lambda x, y: x+yprint(add(1, 2))<br>
 需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
 请不要填写任何多余的文字或符号。</p>
 <p>解答：<br>
-其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简单，但是本文不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
+其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简洁。<br>
+本文在此不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
 😃</p>
 <!-- more -->
-<p>#Lambda表示式实现<br>
-denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
-#常规实现<br>
-den_list = []<br>
-for i in range(1, 20):<br>
-den_list.append(pow(2, i))</p>
+<p>#Lambda表示式实现</p>
+<ul>
+<li>denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
+#常规实现</li>
+<li>den_list = []</li>
+<li>    for i in range(1, 20):</li>
+<li>    den_list.append(pow(2, i))</li>
+</ul>
 <p>可以看到，使用lambda表达式配合map函数仅需一行就可以实验。</p>
 <p>后续处理如下：<br>
 sum = Fraction(1, 1)<br>
 for it in denominator:<br>
-sum += Fraction(1, it)<br>
-print(sum)</p>
+    sum += Fraction(1, it)<br>
+    print(sum)</p>
 ]]></content>
     </entry>
     <entry>

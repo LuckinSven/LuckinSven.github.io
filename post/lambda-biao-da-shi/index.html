@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://LuckinSven.github.io/favicon.ico?v=1572074601854">
+<link rel="shortcut icon" href="https://LuckinSven.github.io/favicon.ico?v=1572075796087">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://LuckinSven.github.io/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://LuckinSven.github.io">
-        <img src="https://LuckinSven.github.io/images/avatar.png?v=1572074601854" class="site-logo">
+        <img src="https://LuckinSven.github.io/images/avatar.png?v=1572075796087" class="site-logo">
         <h1 class="site-title">不修仙的七</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -115,21 +115,24 @@ add = lambda x, y: x+yprint(add(1, 2))<br>
 需要提交的是已经约分过的分数，中间任何位置不能含有空格。<br>
 请不要填写任何多余的文字或符号。</p>
 <p>解答：<br>
-其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简单，但是本文不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
+其题目主要问题在于构造分母，由于这是一个等比数列，采用数学的方法可能更简洁。<br>
+本文在此不做讨论，主要说明lambda表达式在分母构造上的简洁之处。<br>
 😃</p>
 <!-- more -->
-<p>#Lambda表示式实现<br>
-denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
-#常规实现<br>
-den_list = []<br>
-for i in range(1, 20):<br>
-den_list.append(pow(2, i))</p>
+<p>#Lambda表示式实现</p>
+<ul>
+<li>denominator = list(map(lambda x: pow(2, x), range(1, 20)))<br>
+#常规实现</li>
+<li>den_list = []</li>
+<li>    for i in range(1, 20):</li>
+<li>    den_list.append(pow(2, i))</li>
+</ul>
 <p>可以看到，使用lambda表达式配合map函数仅需一行就可以实验。</p>
 <p>后续处理如下：<br>
 sum = Fraction(1, 1)<br>
 for it in denominator:<br>
-sum += Fraction(1, it)<br>
-print(sum)</p>
+    sum += Fraction(1, it)<br>
+    print(sum)</p>
 
             </div>
             
