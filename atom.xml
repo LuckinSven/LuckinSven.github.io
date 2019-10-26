@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-10-26T07:47:25.143Z</updated>
+    <updated>2019-10-26T07:50:21.994Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -21,7 +21,6 @@
         <content type="html"><![CDATA[<p>在Python中，lambda的语法是唯一的。其形式如下：</p>
 <!-- more -->
 <p>lambda argument_list: expression</p>
-<!-- more -->
 <p>这是一个匿名函数，在使用的时候通常不额外命名，更多的作为嵌套使用。<br>
 下面为一个例子：<br>
 #Ex1<br>
