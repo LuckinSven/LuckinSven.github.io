@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-10-27T14:02:00.473Z</updated>
+    <updated>2019-10-27T14:03:52.732Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -16,8 +16,10 @@
         <link href="https://LuckinSven.github.io/post/nan-ting-ye-hua-2">
         </link>
         <updated>2019-10-27T11:30:26.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<p><strong>小北，十一月了，还没下雪，今年就要过去了。</strong></p>
+        <summary type="html"><![CDATA[<p><strong>小北，十一月了，还没下雪，今年就要过去了。</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>小北，十一月了，还没下雪，今年就要过去了。</strong></p>
+<!-- more -->
 <p>  小北，我觉得我对世界缺少热爱，总是不太高兴，见到风和日丽不高兴、高山流水不高兴、推杯换盏不高兴、读万卷书不高兴、行万里路不高兴、我问师傅我是不会出了什么问题，我师父让我来找你，可是你也不高兴。可是我师父是对的。</p>
 ]]></content>
     </entry>
