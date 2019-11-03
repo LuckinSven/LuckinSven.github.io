@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-11-03T14:48:16.392Z</updated>
+    <updated>2019-11-03T14:50:32.052Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -16,8 +16,10 @@
         <link href="https://LuckinSven.github.io/post/hello-2019">
         </link>
         <updated>2019-11-03T14:40:49.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<p>不舍再不舍，再见不再见，2018。</p>
+        <summary type="html"><![CDATA[<p>不舍再不舍，再见不再见，2018。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>不舍再不舍，再见不再见，2018。</p>
+<!-- more -->
 <p>十年真的好快呀！我好想你们呀！<br>
 人生的第二个十年，你，过好了吗？是否对这份答卷满意？<br>
 很抱歉，我觉得还是不太好呢，很多事情可以做的更好，但是请别气馁呀！<br>
