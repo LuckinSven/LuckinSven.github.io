@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>HTML_常用标签 | 不修仙的七</title>
+<title>Python_蓝桥杯_入门训练_1 | 不修仙的七</title>
 <meta name="description" content="风筝有风，海豚有海">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,33 +92,33 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">HTML_常用标签</h2>
-            <div class="post-date">2019-10-23</div>
+            <h2 class="post-title">Python_蓝桥杯_入门训练_1</h2>
+            <div class="post-date">2019-11-15</div>
             
             <div class="post-content">
-              <p>HTML最最最常用的标签</p>
-<p>1，<html>.......</html>  指示文档为html</p>
-<p>2，<head>......</head>   是所有头部元素的容器，里面可以引用脚本，指示浏览器等信息</p>
-<p>3，<meta>  charset = &quot;UTF-8&quot; ，在head里面，最常用来告诉浏览器，文本的格式。</p>
-<p>要注意的是在HTML中，meta没有结束标签！</p>
-<p>4，<title> ......</title>  文档的标题，是head里面必须唯一要求包含的东西。在浏览器上显示的地方为这个网页的名字，注意，是此网页的名称，而不是网页内容。</p>
-<p>5，<a href="www.baidu.com">  这是百度 </a>。注意， 有一个单独的 &gt;，在连接字符串后面，网页显示为 这是百度  四个字，然后连接为超链接。</p>
-<p>！！注意。超链接不一定是文本，也可以是图片，视频！！</p>
-<p>&lt;a href=&quot;https://www.mgtv.c?showId=3958665&quot;blank&quot;&gt;视频</a></p>
-<p>blank 表示在新窗口中打开</p>
-<p>6，图片。<img src=""  />  ，路径支持相对路径，与绝对路径（其他网页）。宽度与高度可以指定，但也是用CSS。</p>
-<img src ="" width="250" height="39"  />
-<p>7,段落 <P> '''''</p> ，换行 <br/>，  下划线（分割线） <hr/>，如果是单独生效的，/在字母后面。（也可以省略斜杠）</p>
-<p>8，注释 &lt;!...这是一个注释......&gt;</p>
+              <p>题目： A+B ，加法器实现</p>
+<!-- more -->
+<p>题目非常简单，但是值得注意的是在Python下的读 输入的问题<br>
+蓝桥杯的输入一般为一行输入，用空格分开<br>
+例如：12 45 ，为两个数字输入<br>
+Python对应的写法为：</p>
+<pre><code>a, b = map(int, input().split())
+add = lambda a, b: a + b
+x = add(a, b)
+print(x)
+</code></pre>
+<p>可以看到这里使用map映射函数，将读入的字符用空格分割，然后只将其类型改为int的字符。</p>
+<p>map() 会根据提供的函数对指定序列做映射。<br>
+第一个参数 function 以参数序列中的每一个元素调用 function 函数，返回包含每次 function 函数返回值的新列表。</p>
 
             </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://LuckinSven.github.io/post/html_-chu-shi">
+                <a href="https://LuckinSven.github.io/post/hello-2019">
                   <h3 class="post-title">
-                    HTML_初识
+                    Hello 2019
                   </h3>
                 </a>
               </div>

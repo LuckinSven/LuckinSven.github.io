@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-11-03T14:51:00.469Z</updated>
+    <updated>2019-11-15T08:48:17.660Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://LuckinSven.github.io/images/avatar.png</logo>
     <icon>https://LuckinSven.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 不修仙的七</rights>
+    <entry>
+        <title type="html"><![CDATA[Python_蓝桥杯_入门训练_1]]></title>
+        <id>https://LuckinSven.github.io/post/python_-lan-qiao-bei-_-ru-men-xun-lian-_1</id>
+        <link href="https://LuckinSven.github.io/post/python_-lan-qiao-bei-_-ru-men-xun-lian-_1">
+        </link>
+        <updated>2019-11-15T03:38:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>题目： A+B ，加法器实现</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>题目： A+B ，加法器实现</p>
+<!-- more -->
+<p>题目非常简单，但是值得注意的是在Python下的读 输入的问题<br>
+蓝桥杯的输入一般为一行输入，用空格分开<br>
+例如：12 45 ，为两个数字输入<br>
+Python对应的写法为：</p>
+<pre><code>a, b = map(int, input().split())
+add = lambda a, b: a + b
+x = add(a, b)
+print(x)
+</code></pre>
+<p>可以看到这里使用map映射函数，将读入的字符用空格分割，然后只将其类型改为int的字符。</p>
+<p>map() 会根据提供的函数对指定序列做映射。<br>
+第一个参数 function 以参数序列中的每一个元素调用 function 函数，返回包含每次 function 函数返回值的新列表。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello 2019]]></title>
         <id>https://LuckinSven.github.io/post/hello-2019</id>
