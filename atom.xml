@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-11-18T02:52:02.532Z</updated>
+    <updated>2019-11-30T13:18:14.209Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -10,6 +10,75 @@
     <logo>https://LuckinSven.github.io/images/avatar.png</logo>
     <icon>https://LuckinSven.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 不修仙的七</rights>
+    <entry>
+        <title type="html"><![CDATA[Git版本控制——入门]]></title>
+        <id>https://LuckinSven.github.io/post/git-ban-ben-kong-zhi-ru-men</id>
+        <link href="https://LuckinSven.github.io/post/git-ban-ben-kong-zhi-ru-men">
+        </link>
+        <updated>2019-11-30T12:01:36.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Git是世界上最棒的版本管理工具！</strong> 😆😆</p>
+<p>本文暂不涉及分支与多人协作。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>Git是世界上最棒的版本管理工具！</strong> 😆😆</p>
+<p>本文暂不涉及分支与多人协作。</p>
+<!-- more -->
+<h3 id="准备工作">准备工作：</h3>
+<p>第一步，软件安装：<br>
+下载对平台软件进行安装。</p>
+<p>第二步，环境配置：<br>
+在git bash直接敲入：<br>
+git config --global user.name &quot;Sven&quot;<br>
+git config --global user.email &quot;liulangzhou@foxmail.com&quot;</p>
+<p>以后的提交文件，会打上这些信息的烙印。</p>
+<h3 id="开始使用">开始使用：</h3>
+<p>第一步，仓库建立<br>
+在win下，需要在根目录下创建仓库。先使用cd 命令进入 文件夹，利用Git init，将文件夹初始化为仓库(responistory)</p>
+<p>第二步：本地推送<br>
+在仓库内新建文件，a.txt,使用subtex3 写入部分内容</p>
+<ol>
+<li>git add a.text    将文件添加到工作区</li>
+<li>git commit -m &quot;注释&quot;   将文件提交到工作区<br>
+两行命令完成后，文件会被推送到仓库中。</li>
+<li>git status 可以使用观察此时仓库的状态。</li>
+</ol>
+<p>第三步：版本管理</p>
+<ol>
+<li>修改，修改后文件，使用  git  diff可以看出修改的部门。</li>
+<li>提交后，还可以通过git log观察历史提交记录</li>
+<li>回退也是依据这里,git reset --hard HEAD^</li>
+</ol>
+<p>第四步：远程管理（SSH配置此处不讲）</p>
+<ol>
+<li>
+<p>自己的仓库推送至远端</p>
+</li>
+<li>
+<p>在本地的仓库（learngit）下：<br>
+使用  git remote add origin git@github.com:LuckinSven/learngit.git<br>
+此命令将本地仓库关联至远端。<br>
+关联之后，推送：</p>
+</li>
+<li>
+<p>git push -u origin master 将本地仓库的所有资料，一次全部推送至远端</p>
+</li>
+<li>
+<p>git push origin master,增量推送,下次修改使用</p>
+</li>
+<li>
+<p>克隆远端仓库至本地</p>
+</li>
+<li>
+<p>在自己的远端上，建立好新的仓库，<br>
+使用 git clone git@github.com:LuckinSven/Clone_origin.git<br>
+克隆至本地，此命令应该在根目录下敲，会生成新的文件夹<br>
+ps:</p>
+</li>
+<li>
+<p>如果是想克隆别人的项目，应该先fork至自己的仓库后，再clone,这样才能推送修改</p>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[正则表达式——入门]]></title>
         <id>https://LuckinSven.github.io/post/zheng-ze-biao-da-shi-ru-men</id>
@@ -240,15 +309,6 @@ add = lambda x, y: x+yprint(add(1, 2))<br>
 <p>Part2_身后</p>
 <p>世界没有尽头，仙境全是冷酷。</p>
 <p>很多故事和意义，都是你以为，你以为岁月是个好东西，你以为，你就是好东西。可惜你无论如何思索，得来都是你以为。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[出现又离开]]></title>
-        <id>https://LuckinSven.github.io/post/chu-xian-you-chi-kai</id>
-        <link href="https://LuckinSven.github.io/post/chu-xian-you-chi-kai">
-        </link>
-        <updated>2019-10-23T08:44:29.000Z</updated>
-        <content type="html"><![CDATA[<p>每一个未来，都有人在。</p>
 ]]></content>
     </entry>
 </feed>

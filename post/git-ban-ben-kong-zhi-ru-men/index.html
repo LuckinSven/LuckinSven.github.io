@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>HTML_初识 | 不修仙的七</title>
+<title>Git版本控制——入门 | 不修仙的七</title>
 <meta name="description" content="风筝有风，海豚有海">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,25 +92,80 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">HTML_初识</h2>
-            <div class="post-date">2019-10-23</div>
+            <h2 class="post-title">Git版本控制——入门</h2>
+            <div class="post-date">2019-11-30</div>
+            
+              <div class="feature-container" style="background-image: url('https://LuckinSven.github.io/post-images/git-ban-ben-kong-zhi-ru-men.jpg')">
+              </div>
             
             <div class="post-content">
-              <p>HTML， Hypertext Markup Language，超文本标记语言。</p>
-<p>1，用于描述网页信息的内容和结构</p>
-<p>2，用开始和结构标签包围文本内容</p>
-<p>3，把每个标签的名字称为元素</p>
-<p>4，语法： &lt;元素&gt;  内容   &lt;/元素&gt; 例如： <p> This is a paragraph </p></p>
-<p>页面结构 <!DOCTYPR html> <html> <head> <title> 标题</tittle> sssss </head> <body> page content </body> </html></p>
+              <p><strong>Git是世界上最棒的版本管理工具！</strong> 😆😆</p>
+<p>本文暂不涉及分支与多人协作。</p>
+<!-- more -->
+<h3 id="准备工作">准备工作：</h3>
+<p>第一步，软件安装：<br>
+下载对平台软件进行安装。</p>
+<p>第二步，环境配置：<br>
+在git bash直接敲入：<br>
+git config --global user.name &quot;Sven&quot;<br>
+git config --global user.email &quot;liulangzhou@foxmail.com&quot;</p>
+<p>以后的提交文件，会打上这些信息的烙印。</p>
+<h3 id="开始使用">开始使用：</h3>
+<p>第一步，仓库建立<br>
+在win下，需要在根目录下创建仓库。先使用cd 命令进入 文件夹，利用Git init，将文件夹初始化为仓库(responistory)</p>
+<p>第二步：本地推送<br>
+在仓库内新建文件，a.txt,使用subtex3 写入部分内容</p>
+<ol>
+<li>git add a.text    将文件添加到工作区</li>
+<li>git commit -m &quot;注释&quot;   将文件提交到工作区<br>
+两行命令完成后，文件会被推送到仓库中。</li>
+<li>git status 可以使用观察此时仓库的状态。</li>
+</ol>
+<p>第三步：版本管理</p>
+<ol>
+<li>修改，修改后文件，使用  git  diff可以看出修改的部门。</li>
+<li>提交后，还可以通过git log观察历史提交记录</li>
+<li>回退也是依据这里,git reset --hard HEAD^</li>
+</ol>
+<p>第四步：远程管理（SSH配置此处不讲）</p>
+<ol>
+<li>
+<p>自己的仓库推送至远端</p>
+</li>
+<li>
+<p>在本地的仓库（learngit）下：<br>
+使用  git remote add origin git@github.com:LuckinSven/learngit.git<br>
+此命令将本地仓库关联至远端。<br>
+关联之后，推送：</p>
+</li>
+<li>
+<p>git push -u origin master 将本地仓库的所有资料，一次全部推送至远端</p>
+</li>
+<li>
+<p>git push origin master,增量推送,下次修改使用</p>
+</li>
+<li>
+<p>克隆远端仓库至本地</p>
+</li>
+<li>
+<p>在自己的远端上，建立好新的仓库，<br>
+使用 git clone git@github.com:LuckinSven/Clone_origin.git<br>
+克隆至本地，此命令应该在根目录下敲，会生成新的文件夹<br>
+ps:</p>
+</li>
+<li>
+<p>如果是想克隆别人的项目，应该先fork至自己的仓库后，再clone,这样才能推送修改</p>
+</li>
+</ol>
 
             </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://LuckinSven.github.io/post/css_-chu-shi">
+                <a href="https://LuckinSven.github.io/post/zheng-ze-biao-da-shi-ru-men">
                   <h3 class="post-title">
-                    CSS_初识
+                    正则表达式——入门
                   </h3>
                 </a>
               </div>
