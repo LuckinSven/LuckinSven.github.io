@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LuckinSven.github.io</id>
     <title>不修仙的七</title>
-    <updated>2019-11-30T13:18:14.209Z</updated>
+    <updated>2019-12-07T15:02:16.037Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LuckinSven.github.io"/>
     <link rel="self" href="https://LuckinSven.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://LuckinSven.github.io/images/avatar.png</logo>
     <icon>https://LuckinSven.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 不修仙的七</rights>
+    <entry>
+        <title type="html"><![CDATA[Sven写在大雪那天并未下雪的年终总结]]></title>
+        <id>https://LuckinSven.github.io/post/sven-xie-zai-da-xue-na-tian-bing-wei-xia-xue-de-nian-zhong-zong-jie</id>
+        <link href="https://LuckinSven.github.io/post/sven-xie-zai-da-xue-na-tian-bing-wei-xia-xue-de-nian-zhong-zong-jie">
+        </link>
+        <updated>2019-12-07T14:57:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>小北，十二月了，还没下雪，今年就要过去了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>小北，十二月了，还没下雪，今年就要过去了。</p>
+<!-- more -->
+<p>小北，我觉得我对世界缺少热爱，总是不太高兴，见到风和日丽不高兴、高山流水不高兴、推杯换盏不高兴、读万卷书不高兴、行万里路不高兴、我问师傅我是不会出了什么问题，我师父让我来找你，可是你也不高兴。可是我师父是对的。</p>
+<p>又是一年将至，未来是否可期，还未知？但是过往的曾经，应该值得珍惜。</p>
+<p>2019的上半年的主题词是：<strong>不安</strong></p>
+<h3 id="找工作">找工作：</h3>
+<p>找工作的不安，与复试的不安。毕业了，方知应届生的身份可贵，只需要一年，新人就能变成老人，然后自动丧失所有的犯错的权利。</p>
+<p>大多数普通的工作，只是属于业务领域，并不在技术有上很高的壁垒，通常这家能够存活的原因，是因为没有太多人在竞争，没有太多的人在做这件事情。机会红利，带着风险太大，如果未来允许，最好还是不要做业务岗。</p>
+<h3 id="复试">复试：</h3>
+<p>复试就是面试，面试就是重复而来的奔波。面试好不好，基本只取决于你面试多不多。作为半个学生的自己，当初的眼界，真是小的可怜。不够广，亦不够精。</p>
+<p>2019下半年的主题词是：<strong>幸运&amp;希望</strong></p>
+<h3 id="实习">实习：</h3>
+<p>第一次坐着上班，凭借微弱的技术吃饭。相比以前的体力兼职，有太多的感悟。带团队比一个人单干更难，难的多。</p>
+<p>开学前，与导师见面，简单了解一下。<br>
+九月，东莞之行，云计算容器安全定稿会议，硕士生涯的起点。<br>
+十月，开发两个爬虫，完成兼职。<br>
+十一月，提交攀登计划，申请立项。<br>
+十二月，安鸿科技，面向中小学的安全教育业务实现，负责技术部分。<br>
+能有今天的种种一切，深感幸运。</p>
+<p>今日大雪，没有下雪，未来也不会下雪。<br>
+那未来的你，会不会突然出现？<br>
+你是希望。</p>
+<h3 id="后花园">后花园：</h3>
+<p>这里的宿舍早上没有热水，不能洗淋浴，但是我仍然每天起床，洗头，去实验室，没有任何改变，离别本来就是那样。</p>
+<p>前两周去唱歌，点了首北京欢迎你，呵，突然十年便过去，依稀觉得仿佛还是昨天，时间好快。我忘记了时间的流逝，忘记了很多事情，但是没忘记你，我觉得我应该忘记你。</p>
+<h3 id="做个梦给你">做个梦给你：</h3>
+<p>我不止一次的说过，这世上的一切，是你们不经意的一笔一划，留我年复一年的朗读。<br>
+我很想念你们，想念家乡，想念回不去的地方，想念无可奈何的地方。<br>
+能不能重来一次，我爱的人，和我爱的人，都在我的身边。<br>
+将故事重写一遍，我一定好好珍惜。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Git版本控制——入门]]></title>
         <id>https://LuckinSven.github.io/post/git-ban-ben-kong-zhi-ru-men</id>
@@ -283,32 +323,6 @@ add = lambda x, y: x+yprint(add(1, 2))<br>
 <p>style&gt; #ID {xxx} </style></p>
 <p>可以看到ID用是#号开头。</p>
 <p>而在HTML中，在标签中加入 id=&quot;&quot;；属性完成。 具体的实现，还是边查表边用吧！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[十年一梦]]></title>
-        <id>https://LuckinSven.github.io/post/shi-nian-yi-meng</id>
-        <link href="https://LuckinSven.github.io/post/shi-nian-yi-meng">
-        </link>
-        <updated>2019-10-23T09:03:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>他抬头看见了月亮，而脚边的六便士却在无声夜里反射着幽冷的月光。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>他抬头看见了月亮，而脚边的六便士却在无声夜里反射着幽冷的月光。</p>
-<!-- more -->
-<p>生前越固执，身后有故事。</p>
-<p>Part 1_生前</p>
-<p>千山都翻得过 万水却难解渴</p>
-<p>云霞漫天，我看着远处那架747，低吼咆哮，滑出跑道，银色的钢铁巨鸟在晴空迅速爬升，冲入云霄，最后在天际化成一个无法到达的黑点<br>
-这段话怎么写，都觉得迷人可爱。<br>
-隔着远远的距离，看你步入弦梯，看你头也不回，摆渡车撤离，塔台给出起飞，银翼开始移动。<br>
-此刻头顶上空，云潮翻涌，无数条看不清命运线交织在一起，差之毫厘，从此以后，一语成谶，亦或一去不回。<br>
-无限个可能，在塌落缩成奇点的那一刻，你，会想什么？<br>
-我不能后悔。<br>
-天气渐凉，才觉一年将尽。<br>
-一冬将尽，方知故事将尽。</p>
-<p>Part2_身后</p>
-<p>世界没有尽头，仙境全是冷酷。</p>
-<p>很多故事和意义，都是你以为，你以为岁月是个好东西，你以为，你就是好东西。可惜你无论如何思索，得来都是你以为。</p>
 ]]></content>
     </entry>
 </feed>
